@@ -1,6 +1,6 @@
 # Messagerie Sécurisée - Cryptochat
 
-- **Une application de messagerie instantanée avec chiffrement de bout en bout (E2EE) implémentant RSA + AES-GCM**
+**Une application de messagerie instantanée avec chiffrement de bout en bout (E2EE) implémentant RSA + AES-GCM**
 
 ## Fonctionnalités
 
@@ -288,12 +288,9 @@ Les contributions sont les bienvenues ! Voici comment contribuer :
 
 ### Suggestions d'améliorations
 
-- Implémenter des signatures numériques pour l'authenticité des clés
-- Ajouter Perfect Forward Secrecy avec ECDH
-- Chiffrer les métadonnées
-- Ajouter des salons de discussion groupés
-- Implémenter une base de données SQLite complète
+- Implémenter des signatures numériques plus avancees pour l'authenticité des clés
 - Ajouter le transfert de fichiers sécurisé
+- Ajouter un mode appel audio et video
 - Support multi-plateforme (Android/iOS)
 
 ### Processus de contribution
@@ -318,7 +315,6 @@ git push origin feature/nouvelle-fonctionnalite
 
 ### Guide de style
 
-- Suivre PEP 8 pour le code Python
 - Commenter les fonctions complexes
 - Ajouter des docstrings aux fonctions publiques
 - Écrire des tests pour les nouvelles fonctionnalités
