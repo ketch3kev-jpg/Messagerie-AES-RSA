@@ -29,6 +29,7 @@
 
 ## Architecture du projet
 
+'''
 messagerie-secure/
 ├── crypto/                    # Modules cryptographiques
 │   ├── aes_manager.py        # Gestion AES-GCM (chiffrement symétrique)
@@ -53,6 +54,7 @@ messagerie-secure/
 ├── requirements.txt         # Dépendances Python
 ├── README.md               # Ce fichier
 └── .gitignore
+'''
 
 ## 🚀 Installation
 
