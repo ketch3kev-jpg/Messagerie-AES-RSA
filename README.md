@@ -10,7 +10,6 @@
 - **Échange de clés hybride** : RSA (2048 bits) pour l'échange sécurisé des clés AES (256 bits)
 - **Sessions de chiffrement** : Clés AES temporaires avec rotation automatique
 - **Authentification forte** : Hachage SHA-256 des mots de passe
-- **Stockage sécurisé** : Clés privées chiffrées avec AES-CBC + PBKDF2
 
 ### **Messagerie Complète**
 
@@ -289,13 +288,13 @@ Les contributions sont les bienvenues ! Voici comment contribuer :
 
 ### Suggestions d'améliorations
 
-- [ ] Implémenter des signatures numériques pour l'authenticité des clés
-- [ ] Ajouter Perfect Forward Secrecy avec ECDH
-- [ ] Chiffrer les métadonnées
-- [ ] Ajouter des salons de discussion groupés
-- [ ] Implémenter une base de données SQLite complète
-- [ ] Ajouter le transfert de fichiers sécurisé
-- [ ] Support multi-plateforme (Android/iOS)
+- Implémenter des signatures numériques pour l'authenticité des clés
+- Ajouter Perfect Forward Secrecy avec ECDH
+- Chiffrer les métadonnées
+- Ajouter des salons de discussion groupés
+- Implémenter une base de données SQLite complète
+- Ajouter le transfert de fichiers sécurisé
+- Support multi-plateforme (Android/iOS)
 
 ### Processus de contribution
 
